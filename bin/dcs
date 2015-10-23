@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+#
+# Application to function as the hub for other more useful subcommands.
+#
+
+require 'opendcs/application'
+
+DCS::Application.start(ARGV)
