@@ -5,8 +5,7 @@
 require 'thor'
 
 module DCS
-  class Application < Thor
-
+  class Runner < Thor
     def initialize(*args)
       super
     end

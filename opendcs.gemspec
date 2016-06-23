@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'opendcs/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "OpenDCS"
+  spec.name          = "opendcs"
   spec.version       = DCS::VERSION
   spec.authors       = ["Geoff Johnson"]
   spec.email         = ["geoff.jay@gmail.com"]

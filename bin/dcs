@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 #
-# Application to function as the hub for other more useful subcommands.
+# Runner to function as the hub for other more useful subcommands.
 #
 
-require 'opendcs/application'
+require 'opendcs/runner'
 
-DCS::Application.start(ARGV)
+DCS::Runner.start(ARGV)
